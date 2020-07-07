@@ -7,7 +7,7 @@ from collections import Counter
 
 application = Flask(__name__)
 
-deets = ["Yash Bardapurkar", "1001731650"]
+deets = ["Bindhushree HR", "1001699836"]
 options = { 8: 'fare', 4: 'age', 1: 'survived', 9: 'cabin', 3: 'sex', }
 
 @application.route('/', methods=["GET"])
